@@ -30,4 +30,5 @@ public class Mascota {
 		
 		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no y mi sexo es " + this.sexo);
 	}
+	
 }
