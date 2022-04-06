@@ -13,8 +13,9 @@ public class Mascota {
 		this.patas = patas;
 	}
 
-	public Mascota(String nombre) {
+	public Mascota(String nombre,int patas) {
 		this.nombre = nombre;
+		this.patas = patas;
 
 	}
 
@@ -27,6 +28,6 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no");
+		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no y tengo " + this.patas);
 	}
 }
