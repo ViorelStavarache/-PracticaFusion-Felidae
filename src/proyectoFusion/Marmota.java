@@ -3,8 +3,8 @@ package proyectoFusion;
 public class Marmota extends Mascota{
 
 	
-	public Marmota(String nombre) {
-		super(nombre);
+	public Marmota(String nombre,int patas) {
+		super(nombre,patas);
 
 	}
 
