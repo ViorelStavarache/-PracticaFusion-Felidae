@@ -3,6 +3,16 @@ package proyectoFusion;
 public class Mascota {
 	private String nombre;
 
+	
+	private int patas;
+	public int getPatas() {
+		return patas;
+	}
+
+	public void setPatas(int patas) {
+		this.patas = patas;
+	}
+
 	public Mascota(String nombre) {
 		this.nombre = nombre;
 
