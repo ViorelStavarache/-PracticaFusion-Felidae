@@ -27,7 +27,7 @@ public class Mascota {
 		this.peso = peso;
 	}
 	
-	public void MandarMensaje() {
+	public void MandarMensaje() { 
 		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no y peso " + this.peso + " kg");
 	}
 }
