@@ -2,7 +2,10 @@ package proyectoFusion;
 
 public class Mascota {
 	private String nombre;
-
+	
+	
+	private double peso;
+	
 	public Mascota(String nombre) {
 		this.nombre = nombre;
 
@@ -16,6 +19,14 @@ public class Mascota {
 		this.nombre = nombre;
 	}
 
+	public double getPeso() {
+		return peso;
+	}
+
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+	
 	public void MandarMensaje() {
 		System.out.println("Soy " + this.nombre + " y te voy a contar algo o no");
 	}
