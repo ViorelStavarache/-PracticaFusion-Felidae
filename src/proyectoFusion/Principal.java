@@ -4,9 +4,9 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Gato gato = new Gato("Miriam");
-		Marmota marmota = new Marmota("Haku");
-		Pinguino pinguino = new Pinguino("Cristina");
+		Gato gato = new Gato("Miriam", "Hembra");
+		Marmota marmota = new Marmota("Haku", "Hembra");
+		Pinguino pinguino = new Pinguino("Cristina", "Hembra");
 		gato.MandarMensaje();
 		marmota.MandarMensaje();
 		pinguino.MandarMensaje(); 

@@ -5,9 +5,9 @@ public class Mascota {
 	
 	private String sexo;
 
-	public Mascota(String nombre) {
+	public Mascota(String nombre, String sexo) {
 		this.nombre = nombre;
-
+		this.sexo = sexo;
 	}
 
 	public String getNombre() {
@@ -27,6 +27,7 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no");
+		
+		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no y mi sexo es " + this.sexo);
 	}
 }
