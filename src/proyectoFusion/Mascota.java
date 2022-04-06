@@ -6,9 +6,9 @@ public class Mascota {
 	
 	private double peso;
 	
-	public Mascota(String nombre) {
+	public Mascota(String nombre, double peso) {
 		this.nombre = nombre;
-
+		this.peso = peso;
 	}
 
 	public String getNombre() {
@@ -28,6 +28,6 @@ public class Mascota {
 	}
 	
 	public void MandarMensaje() {
-		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no");
+		System.out.println("Hola equipo! Soy " + this.nombre + " y te voy a contar algo o no y peso " + this.peso + " kg");
 	}
 }
