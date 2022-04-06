@@ -9,7 +9,7 @@ public class Principal {
 		Pinguino pinguino = new Pinguino("Cristina");
 		gato.MandarMensaje();
 		marmota.MandarMensaje();
-		pinguino.MandarMensaje();
+		pinguino.MandarMensaje(); 
 	}
 
 }
